@@ -17,13 +17,13 @@ public class Helper {
 
 	File src =((TakesScreenshot)driver).getScreenshotAs (OutputType.FILE);
 
-	String screenshotpath= System.getProperty("User.dir")+"/ScreenShot/Amazon_"+getCurrentDateTime()+".png";
+	String screenshotpath= System.getProperty("User.dir")+"//ScreenShot//Amazon_"+getCurrentDateTime()+".png";
 
 	try {
 
 	
 
-	FileHandler.copy(src, new File("./ScreenShot/Amazon_"+getCurrentDateTime()+".png")); 
+	FileHandler.copy(src, new File(".//ScreenShot//Amazon_"+getCurrentDateTime()+".png")); 
 
 	}catch(Exception e){System.out.println("Unable to capture screenshot"+e.getMessage());
 	}

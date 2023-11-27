@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test is ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done-Test Can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting url]]>
+    </line>
+    <line>
+      <![CDATA[launched browser and url running succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Entering Product Name]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-27T14:00:24 IST" name="Default suite" finished-at="2023-11-27T14:00:39 IST" duration-ms="15294">
+    <groups>
+    </groups>
+    <test started-at="2023-11-27T14:00:24 IST" name="Default test" finished-at="2023-11-27T14:00:39 IST" duration-ms="15294">
+      <class name="com.learnautomation.testcase.Search_TestCase">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcase.Search_TestCase@63376bed]" started-at="2023-11-27T14:00:23 IST" name="setUpSuite" finished-at="2023-11-27T14:00:24 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test is ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done-Test Can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.learnautomation.testcase.Search_TestCase@63376bed]" started-at="2023-11-27T14:00:24 IST" name="setUp" finished-at="2023-11-27T14:00:27 IST" duration-ms="2979" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting url]]>
+            </line>
+            <line>
+              <![CDATA[launched browser and url running succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchFor()[pri:0, instance:com.learnautomation.testcase.Search_TestCase@63376bed]" started-at="2023-11-27T14:00:27 IST" name="SearchFor" finished-at="2023-11-27T14:00:38 IST" duration-ms="11712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering Product Name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchFor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcase.Search_TestCase@63376bed]" started-at="2023-11-27T14:00:38 IST" name="tearDown" finished-at="2023-11-27T14:00:39 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcase.Search_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
